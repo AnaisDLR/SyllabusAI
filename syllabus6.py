@@ -21,7 +21,7 @@ from pyngrok import ngrok
 # API_KEY = os.environ.get("OPENAI_API_KEY")
 
 # Utilisez plutôt ceci :
-API_KEY = st.secrets["OPENAI_API_KEY"]
+API_KEY = st.secrets["API_KEY"]
 
 # Fonction pour initialiser le client OpenAI avec la clé API
 def initialize_openai_client():

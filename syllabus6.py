@@ -18,12 +18,11 @@ from streamlit_extras.customize_running import center_running
 from pyngrok import ngrok
 
 
-API_KEY = os.environ.get("OPENAI_API_KEY")
+#API_KEY = os.environ.get("OPENAI_API_KEY")
 
 #from itertools import combinations
-
-
-API_KEY = "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"
+# Access the API key from st.secrets
+API_KEY = st.secrets["GPT_KEY"] == "your GPT key"
 
 # Fonction pour initialiser le client OpenAI avec la clé API
 def initialize_openai_client():

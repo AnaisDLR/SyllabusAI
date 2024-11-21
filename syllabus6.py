@@ -20,13 +20,11 @@ from streamlit_extras.customize_running import center_running
 
 
 
-API_KEY = os.environ.get("OPENAI_API_KEY")
+# Assurez-vous que votre clé API est sécurisée
+st.secrets["OPENAI_API_KEY"] = "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"
 
-#from itertools import combinations
-
-
-API_KEY = "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"
-# Configuration de la page Streamlit
+# Utilisez st.secrets["OPENAI_API_KEY"] au lieu de os.environ.get("OPENAI_API_KEY")
+API_KEY = st.secrets["OPENAI_API_KEY"]
 
 # Fonction pour initialiser le client OpenAI avec la clé API
 def initialize_openai_client():

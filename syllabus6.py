@@ -23,13 +23,6 @@ from pyngrok import ngrok
 # Utilisez plutôt ceci :
 API_KEY = st.secrets["API_KEY"]
 
-# Fonction pour initialiser le client OpenAI avec la clé API
-def initialize_openai_client():
-    return OpenAI(api_key=API_KEY)
-
-# Initialisation du client avec la clé API
-client = initialize_openai_client()
-
 # Configuration de la page Streamlit
 # Fonction pour initialiser le client OpenAI avec la clé API
 def initialize_openai_client():
@@ -37,11 +30,6 @@ def initialize_openai_client():
 
 # Initialisation du client avec la clé API incluse
 client = initialize_openai_client()
-
-
-
-# Assurez-vous que votre clé API est sécurisée
-API_KEY = "votre_clé_api_ici"
 
 # Configurez le tunnel ngrok
 public_url = ngrok.connect(port=8501)

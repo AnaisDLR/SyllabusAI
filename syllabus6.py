@@ -22,7 +22,7 @@ from pyngrok import ngrok
 
 #from itertools import combinations
 # Access the API key from st.secrets
-API_KEY = st.secrets["GPT_KEY"] == "your GPT key"
+API_KEY = st.secrets["GPT_KEY"]
 
 # Fonction pour initialiser le client OpenAI avec la clé API
 def initialize_openai_client():

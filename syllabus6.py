@@ -23,8 +23,7 @@ API_KEY = os.environ.get("OPENAI_API_KEY")
 #from itertools import combinations
 
 
-API_KEY = "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"
-# Configuration de la page Streamlit
+API_KEY = "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"
 
 # Fonction pour initialiser le client OpenAI avec la clé API
 def initialize_openai_client():

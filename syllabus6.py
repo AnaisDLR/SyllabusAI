@@ -15,7 +15,7 @@ from io import BytesIO
 from streamlit_extras.altex import scatter_chart
 from streamlit_extras.altex import _chart
 from streamlit_extras.customize_running import center_running
-
+from pyngrok import ngrok
 
 
 
@@ -32,6 +32,15 @@ def initialize_openai_client():
 
 # Initialisation du client avec la clé API incluse
 client = initialize_openai_client()
+
+
+
+# Assurez-vous que votre clé API est sécurisée
+API_KEY = "votre_clé_api_ici"
+
+# Configurez le tunnel ngrok
+public_url = ngrok.connect(port=8501)
+print(f" * ngrok tunnel '{public_url}' -> 'http://127.0.0.1:8501/'")
 
 
 st.set_page_config(page_title="TOC", page_icon="📚", layout="wide")

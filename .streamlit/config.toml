@@ -1,0 +1,15 @@
+# .streamlit/config.toml
+
+[theme]
+primaryColor = "#f29509"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#f0f6f7"
+textColor = "#007179"
+font = "sans serif"
+
+#toutes les couleurs de l'ECE
+#007179 #bleu-vert foncé
+#FFFFF #blanc
+#02b8c5 #bleu-vert clair
+#f0f6f7 #blanc gris
+#f29509 #orange

@@ -23,7 +23,7 @@ API_KEY = os.environ.get("OPENAI_API_KEY")
 #from itertools import combinations
 
 
-API_KEY = "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"
+API_KEY = "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"
 
 # Fonction pour initialiser le client OpenAI avec la clé API
 def initialize_openai_client():

@@ -31,10 +31,6 @@ def initialize_openai_client():
 # Initialisation du client avec la clé API incluse
 client = initialize_openai_client()
 
-# Configurez le tunnel ngrok
-public_url = ngrok.connect(port=8501)
-print(f" * ngrok tunnel '{public_url}' -> 'http://127.0.0.1:8501/'")
-
 
 st.set_page_config(page_title="TOC", page_icon="📚", layout="wide")
 

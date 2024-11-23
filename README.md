@@ -2,6 +2,7 @@
 
 ## Description
 TOC est une application web interactive développée avec Streamlit qui permet de générer automatiquement des syllabus académiques en utilisant l'IA (GPT-4). L'application offre la possibilité de créer des syllabus soit à partir d'un nom de cours, soit en analysant des documents existants (PDF/Excel).
+Si vous voulez directement l'utiliser, allez sur l'URL suivant : https://syllabusai-toc.streamlit.app
 
 ## Fonctionnalités principales
 

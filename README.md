@@ -103,11 +103,8 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 - Proposer des améliorations
 - Soumettre des pull requests
 
-## Licence
-[Votre licence ici]
-
 ## Contact
-[Vos informations de contact ici]
+anaism.delariviere@gmail.com
 
 ---
 Développé avec ❤️ en utilisant Streamlit et OpenAI GPT-4
